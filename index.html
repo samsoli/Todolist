@@ -1,0 +1,56 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title> To dos</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="mx-auto my-3 w-50">
+            <h1 id="Header" class="text-center text-light mt-5">Todos</h1>
+            <div id="actions" class="text-center mb-3">
+				<a class="btn btn-primary" data-action="add">Add</a>
+				<a class="btn btn-success" data-action="search">Search</a>
+			</div>
+            <div id="form-wrapper" class="mb-3">
+                <!-- <form action="" id="add">
+                    <input class="form-control" name="add" placeholder="Add Todos ...">
+                 </form>
+                <form action="" id="search">
+                    <input class="form-control" name="search" placeholder="search Todos ...">
+                </form> -->               <!--create in javascript-->
+            </div>
+            <ul class="list-group" id="todos-list">
+                <li class=" ">
+                    <span>Cras justo odio</span>
+                    <img src="media/delete-20.png" alt="delete icon" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>Dapibus ac facilisis in</span>
+                    <img src="media/delete-20.png" alt="delete icon" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>Morbi leo risus</span>
+                    <img src="media/delete-20.png" alt="delete icon" class="float-right">
+                </li>
+                <li class="list-group-item">
+                    <span>Porta ac consectetur ac</span>
+                    <img src="media/delete-20.png"alt="delete icon" class="float-right">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <video loop autoplay muted>
+        <source src="media/red.mp4" type="video/mp4">
+    </video>
+    <script src="todo.js"></script>
+
+</body>
+
+</html>
